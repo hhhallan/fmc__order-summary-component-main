@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 375px) {
+  .bg-img {
+    top: 0;
+
+    .img-mobile {
+      display: block;
+    }
+    .img-desktop {
+      display: none;
+    }
+  }
+  .card {
+    height: 600px;
+  }
+}

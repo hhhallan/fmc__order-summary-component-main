@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: $base;
+  color: #222;
+  background-color: $pale-blue;
+  position: relative;
+}
+
+.bg-img {
+  position: fixed;
+  top: -100px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+}
